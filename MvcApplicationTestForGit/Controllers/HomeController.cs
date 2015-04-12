@@ -30,6 +30,7 @@ namespace MvcApplicationTestForGit.Controllers
         }
         public ActionResult Contact2()
         {
+            //change #2
             ViewBag.Message = "Your contact page.";
 
             return View();
