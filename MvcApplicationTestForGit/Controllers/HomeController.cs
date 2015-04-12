@@ -35,5 +35,12 @@ namespace MvcApplicationTestForGit.Controllers
 
             return View();
         }
+        public ActionResult Contact3()
+        {
+            //change  for branch Feature1.1
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
