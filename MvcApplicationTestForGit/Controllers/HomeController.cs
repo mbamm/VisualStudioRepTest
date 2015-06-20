@@ -53,7 +53,9 @@ namespace MvcApplicationTestForGit.Controllers
         public ActionResult Contact5()
         {
             //changes for now
-            ViewBag.Message = "Your contact page.";
+            //changes from github
+            ViewBag.Message = "Your contact page1.";
+            //yes
 
             return View();
         }
