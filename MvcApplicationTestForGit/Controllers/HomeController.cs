@@ -43,5 +43,12 @@ namespace MvcApplicationTestForGit.Controllers
 
             return View();
         }
+        public ActionResult Contact4()
+        {
+           //changes for now
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
