@@ -14,7 +14,7 @@ namespace MvcApplicationTestForGit.Models
             : base("DefaultConnection")
         {
         }
-
+        // test
         public DbSet<UserProfile> UserProfiles { get; set; }
     }
 
